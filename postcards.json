@@ -22,5 +22,35 @@
     "theme": "Pokémon",
     "year": "2003",
     "image": "images/jirachi-wish-maker-movie-promotion-2.jpg"
+  },
+   {
+    "title": "Pokémon Peace Jet ANA",
+    "theme": "Pokémon",
+    "year": "2011",
+    "image": "images/pokémon-peace-jet-ANA.jpg"
+  },
+    {
+    "title": "Pokopia Launch",
+    "theme": "Pokémon",
+    "year": "2025",
+    "image": "images/pokopia-launch.jpg"
+  },
+      {
+    "title": "Pokémon Astronomical Observatory Event",
+    "theme": "Pokémon",
+    "year": "2026",
+    "image": "images/pokémon-astronomical-observatory-1.jpg"
+  },
+      {
+    "title": "Pokémon Astronomical Observatory Event",
+    "theme": "Pokémon",
+    "year": "2026",
+    "image": "images/pokémon-astronomical-observatory-2.jpg"
   }
+      {
+    "title": "Seasonal Situations October 2026",
+    "theme": "Pokémon",
+    "year": "2026",
+    "image": "images/seasonal-situations-2026.jpg"
+  },
 ]
