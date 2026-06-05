@@ -17,6 +17,24 @@
     "year": "1999",
     "image": "images/lets-dance-12.jpg"
   },
+    {
+    "title": "Blastoise",
+    "theme": "Pokémon",
+    "year": "2000",
+    "image": "images/blastoise.jpg"
+  },
+  {
+    "title": "Gengar",
+    "theme": "Pokémon",
+    "year": "2000",
+    "image": "images/gengar.jpg"
+  },
+  {
+    "title": "Ditto",
+    "theme": "Pokémon",
+    "year": "2000",
+    "image": "images/ditto.jpg"
+  },
   {
     "title": "Jirachi Wish Maker Movie Promotion",
     "theme": "Pokémon",
@@ -29,43 +47,7 @@
     "year": "2003",
     "image": "images/jirachi-wish-maker-movie-promotion-2.jpg"
   },
-  {
-    "title": "Pokémon Peace Jet ANA",
-    "theme": "Pokémon",
-    "year": "2011",
-    "image": "images/pokemon-peace-jet-ana.jpg"
-  },
-  {
-    "title": "Pokopia Launch",
-    "theme": "Pokémon",
-    "year": "2025",
-    "image": "images/pokopia-launch.jpg"
-  },
-  {
-    "title": "Pokémon Astronomical Observatory Event",
-    "theme": "Pokémon",
-    "year": "2026",
-    "image": "images/pokemon-astronomical-observatory-1.jpg"
-  },
-  {
-    "title": "Pokémon Astronomical Observatory Event",
-    "theme": "Pokémon",
-    "year": "2026",
-    "image": "images/pokemon-astronomical-observatory-2.jpg"
-  },
-  {
-    "title": "Seasonal Situations (October)",
-    "theme": "Pokémon",
-    "year": "2026",
-    "image": "images/seasonal-situations-2026.jpg"
-  },
-  {
-    "title": "Year of the Horse",
-    "theme": "Pokémon",
-    "year": "2026",
-    "image": "images/year-of-the-horse-2026.jpg"
-  },
-    {
+     {
     "title": "London World Championship 2022",
     "theme": "Pokémon",
     "year": "2022",
@@ -106,6 +88,42 @@
     "theme": "Pokémon",
     "year": "2023",
     "image": "images/vg6.jpg"
+  },
+  {
+    "title": "Pokémon Peace Jet ANA",
+    "theme": "Pokémon",
+    "year": "2011",
+    "image": "images/pokemon-peace-jet-ana.jpg"
+  },
+  {
+    "title": "Pokopia Launch",
+    "theme": "Pokémon",
+    "year": "2025",
+    "image": "images/pokopia-launch.jpg"
+  },
+  {
+    "title": "Pokémon Astronomical Observatory Event",
+    "theme": "Pokémon",
+    "year": "2026",
+    "image": "images/pokemon-astronomical-observatory-1.jpg"
+  },
+  {
+    "title": "Pokémon Astronomical Observatory Event",
+    "theme": "Pokémon",
+    "year": "2026",
+    "image": "images/pokemon-astronomical-observatory-2.jpg"
+  },
+  {
+    "title": "Seasonal Situations (October)",
+    "theme": "Pokémon",
+    "year": "2026",
+    "image": "images/seasonal-situations-2026.jpg"
+  },
+  {
+    "title": "Year of the Horse",
+    "theme": "Pokémon",
+    "year": "2026",
+    "image": "images/year-of-the-horse-2026.jpg"
   },
   {
     "title": "Pokémon Center × Natural History Museum",
@@ -178,24 +196,6 @@
     "theme": "Pokémon",
     "year": "2026",
     "image": "images/nhm12.jpg"
-  },
-  {
-    "title": "Blastoise",
-    "theme": "Pokémon",
-    "year": "2000",
-    "image": "images/blastoise.jpg"
-  },
-  {
-    "title": "Gengar",
-    "theme": "Pokémon",
-    "year": "2000",
-    "image": "images/gengar.jpg"
-  },
-  {
-    "title": "Ditto",
-    "theme": "Pokémon",
-    "year": "2000",
-    "image": "images/ditto.jpg"
   },
   {
     "title": "Common Frog",
