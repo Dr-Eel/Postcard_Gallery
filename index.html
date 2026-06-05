@@ -30,6 +30,9 @@
     header {
       padding: 2.5rem 2rem 1.5rem;
       border-bottom: 0.5px solid var(--border);
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
     }
 
     header h1 {
@@ -44,6 +47,20 @@
       color: var(--text-muted);
       margin-top: 0.3rem;
     }
+
+    .about-link {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      text-decoration: none;
+      border: 0.5px solid var(--border);
+      border-radius: 999px;
+      padding: 6px 16px;
+      white-space: nowrap;
+      margin-top: 0.25rem;
+      transition: background 0.15s, color 0.15s;
+    }
+
+    .about-link:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
 
     /* ── Nav breadcrumb ── */
     .nav {
@@ -209,8 +226,11 @@
 <body>
 
   <header>
-    <h1>Dr Eel's Postcard Collection</h1>
-    <p id="header-sub">Choose a theme to explore</p>
+    <div>
+      <h1>Dr Eel's Postcard Collection</h1>
+      <p id="header-sub">Choose a theme to explore</p>
+    </div>
+    <a href="about.html" class="about-link">About</a>
   </header>
 
   <div class="nav" id="nav-bar">
