@@ -1,4 +1,10 @@
 [
+    {
+    "title": "Banpresto #96",
+    "theme": "Pokémon",
+    "year": "1998",
+    "image": "images/banpresto96.jpg"
+  },
   {
     "title": "Let's Dance 11",
     "theme": "Pokémon",
@@ -58,6 +64,12 @@
     "theme": "Pokémon",
     "year": "2026",
     "image": "images/year-of-the-horse-2026.jpg"
+  },
+    {
+    "title": "London World Championship 2022",
+    "theme": "Pokémon",
+    "year": "2022",
+    "image": "images/london2022.jpg"
   },
   {
     "title": "Pokémon Center × Van Gogh Museum",
