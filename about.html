@@ -118,11 +118,13 @@
       border-radius: 8px;
     }
 
-    .themes-list li .bullet {
-      color: var(--text-muted);
-      font-size: 0.7rem;
-      margin-top: 2px;
+    .themes-list li a {
+      color: var(--text);
+      text-decoration: underline;
+      text-underline-offset: 3px;
     }
+
+    .themes-list li a:hover { color: var(--text-muted); }
 
     /* ── Postcrossing badge ── */
     .badge-row {
@@ -186,10 +188,10 @@
     <p class="themes-heading">What I collect</p>
 
     <ul class="themes-list">
-      <li><span class="bullet">◆</span> Frogs 🐸</li>
-      <li><span class="bullet">◆</span> Pokémon</li>
-      <li><span class="bullet">◆</span> Mushrooms 🍄</li>
-      <li><span class="bullet">◆</span> World Traveller Series 🌎</li>
+      <li><span class="bullet">◆</span> <a href="index.html#Frogs">Frogs</a> 🐸</li>
+      <li><span class="bullet">◆</span> <a href="index.html#Pokémon">Pokémon</a></li>
+      <li><span class="bullet">◆</span> <a href="index.html#Mushrooms">Mushrooms</a> 🍄</li>
+      <li><span class="bullet">◆</span> <a href="index.html#World Traveller Series">World Traveller Series</a> 🌎</li>
     </ul>
 
     <div class="badge-row">
