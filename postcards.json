@@ -533,12 +533,6 @@
     "year": "2025",
     "image": "images/frog16.jpg"
   },
-    {
-    "title": "Common Frog",
-    "theme": "Frogs",
-    "year": "2025",
-    "image": "images/frog17.jpg"
-  },
      {
     "title": "Common Frog",
     "theme": "Frogs",
@@ -586,6 +580,12 @@
     "theme": "Frogs",
     "year": "2025",
     "image": "images/frog24.jpg"
+  },
+    {
+    "title": "Common Frog",
+    "theme": "Frogs",
+    "year": "2025",
+    "image": "images/frog17.jpg"
   },
      {
     "title": "Common Frog",
