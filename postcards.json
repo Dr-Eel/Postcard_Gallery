@@ -131,6 +131,18 @@
     "year": "2000",
     "image": "images/blastoise.jpg"
   },
+     {
+    "title": "Butterfree (German Edition)",
+    "theme": "Pokémon",
+    "year": "2000",
+    "image": "images/butterfreeger.jpg"
+  },
+    {
+    "title": "Diglett (German Edition)",
+    "theme": "Pokémon",
+    "year": "2000",
+    "image": "images/diglettger.jpg"
+  },
   {
     "title": "Gengar",
     "theme": "Pokémon",
