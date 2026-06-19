@@ -118,6 +118,33 @@
 
     .collects a:hover { color: var(--text-muted); }
 
+    .collects-intro {
+      text-align: center;
+      margin-bottom: 0.75rem;
+    }
+
+    .collects ul {
+      list-style: none;
+      display: inline-block;
+      text-align: left;
+      margin: 0 auto;
+      padding: 0;
+    }
+
+    .collects ul li {
+      font-size: 0.95rem;
+      line-height: 1.9;
+      position: relative;
+      padding-left: 1.1rem;
+    }
+
+    .collects ul li::before {
+      content: '–';
+      position: absolute;
+      left: 0;
+      color: var(--text-muted);
+    }
+
     /* ── Eel footer ── */
     .eel-footer {
       width: 100%;
@@ -203,14 +230,15 @@
   <div class="divider"></div>
 
   <div class="collects">
-    <p>
-      My collection is organised by theme — I collect
-      <a href="gallery.html#Frogs">Frogs</a> 🐸,
-      <a href="gallery.html#Pokémon">Pokémon</a> ⚡,
-      <a href="gallery.html#Mushrooms">Mushrooms</a> 🍄,
-      and <a href="gallery.html#World Traveller Series">World Traveller Series</a> 🌎 postcards,
-      among others!
-    </p>
+    <p class="collects-intro">These are the main topics I collect:</p>
+    <div style="text-align: center;">
+      <ul>
+        <li><a href="gallery.html#Frogs">Frogs</a> 🐸</li>
+        <li><a href="gallery.html#Pokémon">Pokémon</a> ⚡</li>
+        <li><a href="gallery.html#Mushrooms">Mushrooms</a> 🍄</li>
+        <li><a href="gallery.html#World Traveller Series">World Traveller Series</a> 🌎</li>
+      </ul>
+    </div>
   </div>
 
   <div class="pc-row">
