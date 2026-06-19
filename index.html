@@ -89,40 +89,28 @@
 
     .nav .back-btn:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
 
-    /* ── Theme grid ── */
+    /* ── Theme links ── */
     #home-view {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 1.25rem;
-      padding: 0.5rem 2rem 3rem;
-    }
-
-    .theme-box {
-      background: var(--surface);
-      border: 0.5px solid var(--border);
-      border-radius: var(--radius);
-      padding: 2.5rem 1.5rem 2rem;
+      max-width: 560px;
+      margin: 0 auto;
+      padding: 2rem 2rem 3rem;
       text-align: center;
-      cursor: pointer;
-      transition: transform 0.15s, box-shadow 0.15s;
     }
 
-    .theme-box:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,0.07); }
+    #home-view p {
+      font-size: 1rem;
+      line-height: 2;
+      color: var(--text);
+    }
 
-    .theme-box .theme-emoji { font-size: 3rem; display: block; margin-bottom: 1rem; }
-
-    /* ── Pokéball ── */
-    .pokeball { width: 56px; height: 56px; margin: 0 auto 1rem; }
-    .pokeball svg { width: 100%; height: 100%; }
-
-    .theme-box .theme-name {
+    #home-view a {
+      color: var(--text);
+      text-decoration: underline;
+      text-underline-offset: 3px;
       font-family: 'Playfair Display', serif;
-      font-size: 1.2rem;
-      font-weight: 400;
-      margin-bottom: 0.3rem;
     }
 
-    .theme-box .theme-count { font-size: 0.82rem; color: var(--text-muted); }
+    #home-view a:hover { color: var(--text-muted); }
 
     /* ── Postcard grid ── */
     #theme-view {
@@ -275,26 +263,13 @@
   <script>
     let allPostcards = [];
 
-    // Theme display config — add an emoji and description for each theme name
+    // Theme display config — kept for potential future use (e.g. emoji elsewhere)
     const themeConfig = {
       "Frogs":    { emoji: "🐸" },
-      "Pokémon":  { svg: `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="50" cy="50" r="48" fill="#fff" stroke="#222" stroke-width="4"/>
-        <path d="M2 50 Q2 2 50 2 Q98 2 98 50Z" fill="#e53935"/>
-        <rect x="2" y="47" width="96" height="6" fill="#222"/>
-        <circle cx="50" cy="50" r="14" fill="#fff" stroke="#222" stroke-width="4"/>
-        <circle cx="50" cy="50" r="7" fill="#fff" stroke="#222" stroke-width="3"/>
-      </svg>` },
+      "Pokémon":  { emoji: "⚡" },
       "Mushrooms": { emoji: "🍄" },
       "World Traveller Series": { emoji: "🌎" },
     };
-
-    function themeIcon(name) {
-      if (themeConfig[name] && themeConfig[name].svg) {
-        return `<div class="pokeball">${themeConfig[name].svg}</div>`;
-      }
-      return `<span class="theme-emoji">${themeConfig[name] ? themeConfig[name].emoji : "📬"}</span>`;
-    }
 
     // ── Render home screen ──
     function showHome() {
@@ -309,15 +284,22 @@
       const themes = [...new Set(allPostcards.map(p => p.theme))];
       const homeView = document.getElementById('home-view');
 
-      homeView.innerHTML = themes.map(theme => {
-        const count = allPostcards.filter(p => p.theme === theme).length;
-        return `
-          <div class="theme-box" onclick="showTheme('${theme.replace(/'/g, "\\'")}')">
-            ${themeIcon(theme)}
-            <div class="theme-name">${theme}</div>
-            <div class="theme-count">${count} postcard${count !== 1 ? 's' : ''}</div>
-          </div>`;
-      }).join('');
+      const links = themes.map(theme => {
+        const emoji = themeConfig[theme] ? themeConfig[theme].emoji : '';
+        return `<a href="#" onclick="showTheme('${theme.replace(/'/g, "\\'")}'); return false;">${theme}</a>${emoji ? ' ' + emoji : ''}`;
+      });
+
+      // Join into a friendly sentence, Oxford-comma style
+      let sentence;
+      if (links.length === 1) {
+        sentence = links[0];
+      } else if (links.length === 2) {
+        sentence = links.join(' and ');
+      } else {
+        sentence = links.slice(0, -1).join(', ') + ', and ' + links[links.length - 1];
+      }
+
+      homeView.innerHTML = `<p>Browse my collection by theme: ${sentence}.</p>`;
     }
 
     // ── Render theme screen ──
