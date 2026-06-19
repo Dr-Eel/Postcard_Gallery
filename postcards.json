@@ -681,12 +681,6 @@
     "title": "Mushroom",
     "theme": "Mushrooms",
     "year": "2025",
-    "image": "images/fungi3.jpg"
-  },
-    {
-    "title": "Mushroom",
-    "theme": "Mushrooms",
-    "year": "2025",
     "image": "images/fungi4.jpg"
   },
     {
@@ -694,6 +688,12 @@
     "theme": "Mushrooms",
     "year": "2025",
     "image": "images/fungi5.jpg"
+  },
+    {
+    "title": "Mushroom",
+    "theme": "Mushrooms",
+    "year": "2025",
+    "image": "images/fungi3.jpg"
   },
     {
     "title": "Mushroom",
