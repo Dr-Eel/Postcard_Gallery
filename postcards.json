@@ -754,5 +754,11 @@
     "theme": "Mushrooms",
     "year": "2025",
     "image": "images/phqfungi4.jpg"
-  }
+  },
+    {
+    "title": "Japan",
+    "theme": "World Travel",
+    "year": "2026",
+    "image": "images/wtjapan.jpg"
+  },
 ]
