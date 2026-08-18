@@ -760,5 +760,35 @@
     "theme": "World Travel Series",
     "year": "2026",
     "image": "images/wtjapan.jpg"
+  },
+    {
+    "title": "Iceland",
+    "theme": "World Travel Series",
+    "year": "2026",
+    "image": "images/wt-iceland.jpg"
+  },
+    {
+    "title": "India",
+    "theme": "World Travel Series",
+    "year": "2026",
+    "image": "images/wt-india.jpg"
+  },
+     {
+    "title": "Thailand",
+    "theme": "World Travel Series",
+    "year": "2026",
+    "image": "images/wt-thailand.jpg"
+  },
+     {
+    "title": "United Kingdom",
+    "theme": "World Travel Series",
+    "year": "2026",
+    "image": "images/wt-uk.jpg"
+  },
+     {
+    "title": "Vietnam",
+    "theme": "World Travel Series",
+    "year": "2026",
+    "image": "images/wt-vietnam.jpg"
   }
 ]
