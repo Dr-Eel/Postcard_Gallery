@@ -790,5 +790,53 @@
     "theme": "World Travel Series",
     "year": "2026",
     "image": "images/wt-vietnam.jpg"
+  },
+     {
+    "title": "Florida",
+    "theme": "LouPaper",
+    "year": "2026",
+    "image": "lp-florida.jpg"
+  },
+     {
+    "title": "Nevada",
+    "theme": "LouPaper",
+    "year": "2026",
+    "image": "lp-nevada.jpg"
+  },
+     {
+    "title": "Pennsylvania",
+    "theme": "LouPaper",
+    "year": "2026",
+    "image": "lp-pennsylvania.jpg"
+  },
+     {
+    "title": "LouPaper - Bread",
+    "theme": "LouPaper",
+    "year": "2026",
+    "image": "lp-bread.jpg"
+  },
+    {
+    "title": "LouPaper - Fall",
+    "theme": "LouPaper",
+    "year": "2026",
+    "image": "lp-fall.jpg"
+  },
+    {
+    "title": "LouPaper - Flowers",
+    "theme": "LouPaper",
+    "year": "2026",
+    "image": "lp-flowers.jpg"
+  },
+    {
+    "title": "LouPaper - Mail",
+    "theme": "LouPaper",
+    "year": "2026",
+    "image": "lp-mail.jpg"
+  },
+    {
+    "title": "LouPaper - Tomatoes",
+    "theme": "LouPaper",
+    "year": "2026",
+    "image": "lp-tomatoes.jpg"
   }
 ]
