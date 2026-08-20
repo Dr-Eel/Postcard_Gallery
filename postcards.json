@@ -793,50 +793,50 @@
   },
      {
     "title": "Florida",
-    "theme": "LouPaper",
+    "theme": "Loupaper",
     "year": "2026",
-    "image": "lp-florida.jpg"
+    "image": "images/lp-florida.jpg"
   },
      {
     "title": "Nevada",
-    "theme": "LouPaper",
+    "theme": "Loupaper",
     "year": "2026",
-    "image": "lp-nevada.jpg"
+    "image": "images/lp-nevada.jpg"
   },
      {
     "title": "Pennsylvania",
-    "theme": "LouPaper",
+    "theme": "Loupaper",
     "year": "2026",
-    "image": "lp-pennsylvania.jpg"
+    "image": "images/lp-pennsylvania.jpg"
   },
      {
     "title": "LouPaper - Bread",
-    "theme": "LouPaper",
+    "theme": "Loupaper",
     "year": "2026",
-    "image": "lp-bread.jpg"
+    "image": "images/lp-bread.jpg"
   },
     {
     "title": "LouPaper - Fall",
-    "theme": "LouPaper",
+    "theme": "Loupaper",
     "year": "2026",
-    "image": "lp-fall.jpg"
+    "image": "images/lp-fall.jpg"
   },
     {
     "title": "LouPaper - Flowers",
-    "theme": "LouPaper",
+    "theme": "Loupaper",
     "year": "2026",
-    "image": "lp-flowers.jpg"
+    "image": "images/lp-flowers.jpg"
   },
     {
     "title": "LouPaper - Mail",
-    "theme": "LouPaper",
+    "theme": "Loupaper",
     "year": "2026",
-    "image": "lp-mail.jpg"
+    "image": "images/lp-mail.jpg"
   },
     {
     "title": "LouPaper - Tomatoes",
-    "theme": "LouPaper",
+    "theme": "Loupaper",
     "year": "2026",
-    "image": "lp-tomatoes.jpg"
+    "image": "images/lp-tomatoes.jpg"
   }
 ]
