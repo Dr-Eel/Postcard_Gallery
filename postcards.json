@@ -792,10 +792,28 @@
     "image": "images/wt-vietnam.jpg"
   },
      {
+    "title": "Delaware",
+    "theme": "Loupaper",
+    "year": "2026",
+    "image": "images/lp-delaware.jpg"
+  },
+     {
     "title": "Florida",
     "theme": "Loupaper",
     "year": "2026",
     "image": "images/lp-florida.jpg"
+  },
+     {
+    "title": "Maine",
+    "theme": "Loupaper",
+    "year": "2026",
+    "image": "images/lp-maine.jpg"
+  },
+     {
+    "title": "Maryland",
+    "theme": "Loupaper",
+    "year": "2026",
+    "image": "images/lp-maryland.jpg"
   },
      {
     "title": "Nevada",
@@ -808,6 +826,12 @@
     "theme": "Loupaper",
     "year": "2026",
     "image": "images/lp-pennsylvania.jpg"
+  },
+      {
+    "title": "Japan",
+    "theme": "Loupaper",
+    "year": "2026",
+    "image": "images/lp-japan.jpg"
   },
      {
     "title": "LouPaper - Bread",
