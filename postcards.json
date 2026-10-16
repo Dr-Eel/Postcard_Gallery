@@ -755,6 +755,12 @@
     "year": "2025",
     "image": "images/phqfungi4.jpg"
   },
+      {
+    "title": "Andorra",
+    "theme": "World Travel Series",
+    "year": "2026",
+    "image": "images/wt-andorra.jpg"
+  },
     {
     "title": "Japan",
     "theme": "World Travel Series",
@@ -772,6 +778,12 @@
     "theme": "World Travel Series",
     "year": "2026",
     "image": "images/wt-india.jpg"
+  },
+     {
+    "title": "Indonesia",
+    "theme": "World Travel Series",
+    "year": "2026",
+    "image": "images/wt-indonesia.jpg"
   },
      {
     "title": "Thailand",
